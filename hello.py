@@ -74,9 +74,34 @@ print(f"hello, {name}")
 """
 
 # also 
-
+"""
 name = input("What is your name? ").strip().title()
 print(f"Hello, {name}")
+"""
+
+#also
+"""
+name = input("What is your name? ").strip().title()
+first, last = name.split(" ")
+print(f"hello, {first} {last}")
+"""
+# 10. Integers
+
+#command python word in terminal make tarminal and enviornment writable it it called interactive mode
+
+# z will concate number not adding like math\
+"""
+x = input("What is x? ")
+y = input("What is y? ")
+z = x + y
+print(z) 
+"""
+
+# Now z will convert string to interger and result will mathmatical
+x = input("What is x? ")
+y = input("What is y? ")
+z = int(x) + int(y)
+print(z) 
 
 
 
