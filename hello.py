@@ -98,10 +98,53 @@ print(z)
 """
 
 # Now z will convert string to interger and result will mathmatical
+"""
 x = input("What is x? ")
 y = input("What is y? ")
 z = int(x) + int(y)
 print(z) 
+"""
+
+#also
+"""
+x = int(input("What is x? "))
+y = int(input("What is y? "))
+print(x + y)
+"""
+
+#11. Float
+"""
+x = float(input("What is x? "))
+y = float(input("What is y? "))
+
+print( x + y )
+"""
+#round to nearest
+"""
+x = float(input("What is x? "))
+y = float(input("What is y? "))
+z = round(x + y);
+
+print(z);
+"""
+#made " , " in big ammount
+"""
+x = float(input("What is x? "))
+y = float(input("What is y? "))
+z = round(x + y);
+
+print(f"{z:,}")
+"""
+#made " , " in big ammount by f string approch
+x = float(input("What is x? "))
+y = float(input("What is y? "))
+
+z = x / y
+print(f"{z:.2f}")
+
+
+
+
 
 
 
